@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    min-height: 500px;
+
+}
+
+.img-left {
+    width: 45%;
+    background: url('../img/admin.png') center;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+input[type='email'],
+input[type='password'] {
+    border-radius: 100px;
+    border: none;
+    background: #E3F2FD;
+}
+
+input[type='button'] {
+    border-radius: 100px;
+}

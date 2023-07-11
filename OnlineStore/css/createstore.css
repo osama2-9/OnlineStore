@@ -1,0 +1,14 @@
+select,
+input {
+    margin: 0 auto !important;
+}
+
+select,
+input[type='submit'] {
+    width: 160px !important;
+}
+
+
+p {
+    background-color: #0d6efd;
+}
